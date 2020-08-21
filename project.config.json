@@ -31,7 +31,7 @@
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.12.1",
 	"appid": "wxb4f11b49af439d6c",
 	"projectname": "WeiXinProject",
 	"debugOptions": {
