@@ -1,0 +1,5 @@
+/* pages/home/home.wxss */
+.text{
+  font-size: 18px;
+  color: red;
+}
