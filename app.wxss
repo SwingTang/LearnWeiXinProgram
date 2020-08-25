@@ -1,0 +1,8 @@
+.container{
+  background-color: blueviolet;
+  font-size: 44px;
+  font-weight: bold;
+}
+.content{
+  background-color: cyan;
+}

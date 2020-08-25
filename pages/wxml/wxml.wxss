@@ -1,0 +1,9 @@
+/* pages/wxml/wxml.wxss */
+.box{
+  font-weight: bold;
+  font-size: 33px;
+}
+
+.active{
+  color: antiquewhite;
+}

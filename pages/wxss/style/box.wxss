@@ -1,0 +1,10 @@
+.boxs{
+  width: 100px;
+  height: 100px;
+  background-color: darkblue;
+}
+.boxw{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: paleturquoise;
+}

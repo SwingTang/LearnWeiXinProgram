@@ -1,0 +1,28 @@
+
+<!-- 1.image的基本使用 -->
+<!--  
+  重点：
+    1.image组件可以写成单标签，也可以是修改成双标签
+    2.iamge组件默认有自己的大小:320x240
+    3.image组件是一个行内块级元素(inline-block)
+-->
+<text>呵呵呵</text>
+
+<!-- 2.src:本地地址(相对路径/绝对路径)/远程地址 -->
+<image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3872113517,4236466949&fm=26&gp=0.jpg"></image>
+
+<!-- 3.补充：相册中的图片 -->
+<button bindtap="handleChooseAlbum">选中图片</button>
+<image src="{{imagePath}}" lazy-load></image>
+
+<!-- 3.bindload -->
+<!-- lazy-load -->
+<view>--------------------------------------------</view>
+<image wx:for="{{1}}" bindload="imageLoad"
+ src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3872113517,4236466949&fm=26&gp=0.jpg"
+ lazy-load></image>
+
+ <!-- 4.show-menu-by-longpress:长按图片出现识别小程序码 -->
+ <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3872113517,4236466949&fm=26&gp=0.jpg"
+ show-menu-by-longpress
+ mode="aspectFit"></image>

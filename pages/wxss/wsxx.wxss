@@ -1,0 +1,29 @@
+/* pages/wxss/wsxx.wxss */
+@import './style/box.wxss';
+@import './style/content.wxss';
+
+.box{
+  background-color: plum;
+  color: antiquewhite;
+  font-size: 35px;
+}
+.content{
+  background-color: burlywood;
+}
+
+/* .boxs{
+  width: 100px;
+  height: 100px;
+  background-color: darkblue;
+}
+.boxw{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: paleturquoise;
+} */
+/* .content1{
+  font-size: 30px;
+}
+.content2{
+  font-size: 60rpx;
+} */
